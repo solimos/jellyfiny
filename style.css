@@ -1,0 +1,133 @@
+@-webkit-keyframes infinity-animation {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: -10em 0;
+  }
+  25% {
+    transform: rotate(360deg);
+    transform-origin: -10em;
+  }
+  50% {
+    transform: rotate(720deg);
+    transform-origin: 10em 0;
+  }
+  75% {
+    transform: rotate(1080deg);
+    transform-origin: 0 10em;
+  }
+  100% {
+    transform: rotate(1440deg);
+    transform-origin: -10em 0;
+  }
+}
+@keyframes infinity-animation {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: -10em 0;
+  }
+  25% {
+    transform: rotate(360deg);
+    transform-origin: -10em;
+  }
+  50% {
+    transform: rotate(720deg);
+    transform-origin: 10em 0;
+  }
+  75% {
+    transform: rotate(1080deg);
+    transform-origin: 0 10em;
+  }
+  100% {
+    transform: rotate(1440deg);
+    transform-origin: -10em 0;
+  }
+}
+.infinity-loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.pearl {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: black;
+  box-shadow: 0 0 0.5em black;
+  -webkit-animation: infinity-animation 6s infinite;
+          animation: infinity-animation 6s infinite;
+}
+
+.pearl-0 {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 0.25em;
+  -webkit-animation-delay: 160ms;
+          animation-delay: 160ms;
+}
+
+.pearl-1 {
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  -webkit-animation-delay: 140ms;
+          animation-delay: 140ms;
+}
+
+.pearl-2 {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 0.75em;
+  -webkit-animation-delay: 120ms;
+          animation-delay: 120ms;
+}
+
+.pearl-3 {
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+.pearl-4 {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 1.25em;
+  -webkit-animation-delay: 80ms;
+          animation-delay: 80ms;
+}
+
+.pearl-5 {
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  -webkit-animation-delay: 60ms;
+          animation-delay: 60ms;
+}
+
+.pearl-6 {
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 1.75em;
+  -webkit-animation-delay: 40ms;
+          animation-delay: 40ms;
+}
+
+.pearl-7 {
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  -webkit-animation-delay: 20ms;
+          animation-delay: 20ms;
+}
+
+.pearl-8 {
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 2.25em;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
